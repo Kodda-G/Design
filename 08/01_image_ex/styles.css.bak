@@ -31,31 +31,15 @@ table {
 
 body {
 	font-size: 62.5%;
-	text-allign:center;
 }
+
 .content {
-	margin-left: 15px;
-	margin-top: 15px;
+	margin: 15px;
 	border: 1px dashed #999;
-	border-right: none;
 	border-bottom: none;
 }
-p.caption {
-	font-size: 1.3em;
-	line-height: normal;
-	margin-bottom: 15px;
-}
-.gallery .figure p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
-	text-align: center;
-	line-height: normal;
-}
-
-
 h1 {
 	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
-	margin: 0;
 	border-bottom: 1px dashed #999;
 	padding: 5px 0 5px 8px;
 	color: #14556b;
@@ -69,52 +53,48 @@ p {
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #666666;
-	margin-left: 0px;
+	margin: 0px;
 	padding-left: 8px;
 	border-top: 1px dashed #999;
 	clear: both;
 }
-
-figure img {
-	border: 1px solic #666;
-	background-color: #FFF;
-	padding:6px;
-	box-shadow:2px 2px 4px rgba(0,0,0,.5);
-}
-figcaption {
-	font: 1.1em Arial, sans-serief;
-	text-allign:center;
-	margin:10px 0 0 0;
-}
+/* пользовательские стили  */
 /*
-figure{
+img {
 	float:left;
-	width: 210px;
-	margin: 0 10px 10px 10px;
-	height: 250px;
-}
+	margin: 10px;
+	border: 1px solid #666;
+	baclground-color: #CCC;
+	padding: 10px;
+	
+}	
 */
 figure {
-	display:inline-block;
+	float: right;
+	width: 222px;
+	margin: 15px 10 5px 10px;
 }
-figure img{
-	transform: rotate(-90deg);
-}	
-
-figure.fig1, figure.fig1 img, figure.fig1 figcaption {
-	margin:0;
-	padding:0;
-	border:0;
-	vertical-align:baseline;
+figure img {
+	border: 1px solid 666;
+	background-color: #CCC;
+	padding: 10px;
 }
-figure.fig1 img{
-	display:inline;
-	width:35%;
-}
-figure.fig1 figcaption{
-	margin-top:20px;
+figure figcaption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight:bold;
+	color: #333;
 	text-align:center;
-	width:400px;
+	background-image:linear-gradient(to bottom, #A6F3FF,white);
+	border: 1px dashed #666;
+	paddint: 5px;
+}
+figure.pattern {
+	border: 1px solid 666;
+	background-color: #EEE;
+	padding: 5px;
 }	
-		
+figure.pattern img {
+	transform: rotate(-90deg);
 	
+}

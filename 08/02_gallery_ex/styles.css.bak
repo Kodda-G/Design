@@ -101,7 +101,7 @@ figure img{
 	transform: rotate(-90deg);
 }	
 
-figure.fig1, figure.fig1 img, figure.fig1 figcaption {
+figure.fig1,figure.fig1 img, figure.fig1 figcaption {
 	margin:0;
 	padding:0;
 	border:0;
@@ -113,8 +113,6 @@ figure.fig1 img{
 }
 figure.fig1 figcaption{
 	margin-top:20px;
-	text-align:center;
-	width:400px;
 }	
 		
 	

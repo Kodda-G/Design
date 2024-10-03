@@ -59,8 +59,43 @@ p {
 	clear: both;
 }
 /* пользовательские стили  */
-
-
-
-
-
+/*
+img {
+	float:left;
+	margin: 10px;
+	border: 1px solid #666;
+	baclground-color: #CCC;
+	padding: 10px;
+	
+}	
+*/
+figure {
+	float: right;
+	width: 222px;
+	margin: 15px 10 5px 10px;
+}
+figure img {
+	border: 1px solid 666;
+	background-color: #CCC;
+	padding: 10px;
+	filter: hue-rotate(90deg); 
+}
+figure figcaption {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight:bold;
+	color: #333;
+	text-align:center;
+	background-image:linear-gradient(to bottom, #A6F3FF,white);
+	border: 1px dashed #666;
+	paddint: 5px;
+}
+figure.pattern {
+	border: 1px solid 666;
+	background-color: #EEE;
+	padding: 5px;
+}	
+figure.pattern img {
+	transform: rotate(-90deg);
+	
+}
