@@ -60,7 +60,6 @@ h2 {
 	color: rgb(249,107,24);
 	border-top: 2px dotted rgb(141,165,22);
 	border-bottom: 2px dotted rgb(141,165,22);
-	overflow: hidden;
 }
 .sidebar {
 	width: 30%;
