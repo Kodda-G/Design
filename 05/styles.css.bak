@@ -38,32 +38,31 @@ table {
 .sidebar {
 	margin-left: 75%;
 	padding: 15px;
-	background: #757575;
+	background: #OEF5FE;
 }
 body {
-	color: #909090;
-	font-family: Perpetua, serif;
+	color: #B1967C;
+	font-family:Perpetua, serif;
 	padding-top: 115px;
-	background: #CDE6FF url(./images/123.png) no-repeat;
+	background: #CDE6FF url(./images/bg_body.png) repeat-x;
 	max-width: 800px;
 	margin: 0 auto;
-}	
+}
 h1 {
-	font-size: 4em;
+	font-size: 3em;
 	font-family: "Arial Black", sans-serif;
-	background: #CDE6FF url(./images/1_920x674_f8d.jpg) repeat-x;
 	margin-bottom: 15px;
-}	
+}
 h2 {
 	font-size: 2.2em;
-	color: #AFC3D;
+	color: #AFC3D6;
 	margin-bottom: 5px;
-}		
+}
 .main h2 {
 	color: #E8A064;
 	border-bottom: 2px white solid;
-	background: url(images/images.jpg) no-repeat;
-	padding: 2 2 5px 80px;
+	background: url(./images/bg_body.png) no-repeat;
+	padding: 0 0 2px 80px;
 }
 .main p {
 	color: #616161;
@@ -73,40 +72,43 @@ h2 {
 	margin-bottom: 10px;
 	margin-left: 80px;
 }
-.main p.vstuplenie.intro {
+p.intro {
 	color: #6A94CC;
 	font-family: Arial, sans-serif;
 	font-size: 1.2em;
 	margin-left: 0;
-	margin-bottom: 15px;
+	margin-bottom: 15;
+}
+.text-gradient  {
+	background-image: linear-gradient(to right, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue, red, blue);
+	background-clip: text;
+	color: transparent;
 }
 
 h2 {
-	color:rgb(155,0,155);
-	font-family: Constantia, serif;
-	font-size: 2.1em;
-	background: url(images/655665-2.jpg) no-repeat;
-	margin-left: 1;
-	margin-bottom: 30px;
-}
-h2 + p {
-	color: rgb(333,125,333);
-	font-family: Constantia, serif;
-	font-size: 1.2em;
-	line-height: 150%
-}
-h2 + p +p {
-	color: rgb(255,125,255);
-	font-family: Constantia, sans-serif;
-	font-size: 1.2em;
-	background: url(images/zvezda.png) no-repeat;
-	line-height: 150%;
-}
-h2 + p+p+p {
-	color: rgb(555,155,555);
-	font-family: Constantia, sans-serif;
-	font-size: 2.2em;
-	line-height:140%;
+	color: rgb(0, 0, 255);
+	font-family: Arial, sans-serif;
+	border-bottom: 2px solid rgb(87, 185, 178);
+	padding-bottom: 5px;
+	font-size: 22px;
+	background: url(./images/123.JPG)repeat;
 }
 
-	
+h2 + p {
+	color: rgb(255, 0, 255);
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 140%;
+}
+h2 + p +p {
+	color: rgb(255, 125, 255);
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 140%;
+}
+h2 + p+p+p {
+	color: rgb(255, 155, 155);
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 140%;
+}
